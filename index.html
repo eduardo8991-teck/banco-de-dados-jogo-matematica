@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jogo da Matemática</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+
+<h1> Jogo da Matemática</h1>
+
+
+<p class="subtitulo">
+Resolva as contas e faça a maior pontuação!
+</p>
+
+
+<div class="painel">
+
+
+<div class="info">
+ Pontos:
+<span id="pontos">0</span>
+</div>
+
+
+<div class="info">
+ Vidas:
+<span id="vidas">3</span>
+</div>
+
+
+</div>
+
+
+<div class="caixa">
+
+
+<h2 id="pergunta">5 + 2 = ?</h2>
+
+
+<input
+type="number"
+id="resposta"
+placeholder="Digite a resposta">
+
+
+<button onclick="verificar()">
+Responder
+</button>
+
+
+<p id="mensagem"></p>
+
+
+</div>
+
+
+<div class="progresso">
+
+
+<div id="barra"></div>
+
+
+</div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
+
